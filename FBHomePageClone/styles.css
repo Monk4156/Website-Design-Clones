@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid black; */
+    
+    
+}
+
+body {
+    background-color: #dddcdc80;
+   
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    width: 100%;
+}
+
+header {
+    margin: -20% 40px 0px 15px;
+    width: 50%;
+ 
+  
+}
+
+#titleimg {
+    width: 301px;
+    height: 106px;
+    
+}
+
+h2 {
+font-size: 24px;
+line-height: 25px;
+text-align: justify;
+padding: 0px 24px;
+font-weight: normal;
+word-wrap: break-word;
+
+
+}
+
+#main {
+    max-width: 370px;
+    min-width: 370px;
+    height: 400px;
+    padding: 0px 30px;
+    
+
+    
+}
+
+#loginform {
+    background-color: white;
+    padding: 15px; 
+    border-radius: 5px;
+    box-shadow: -0px 1px 4px grey;
+    
+}
+
+input {
+    display: inline-block;
+    border-radius: 5px;
+    border: solid 1px grey;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: thin 1px black;
+    
+}
+
+#bluebutton {
+    display: block;
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 0.5rem;
+}
+
+#forgotpass {
+    text-align: center;
+    margin: 15px auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
+ 
+
+#hrform {
+margin: 20px auto;
+width: 100%;
+color: grey;
+}
+
+#greenbutton {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: #00a400;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: transparent;
+}
+
+#formfoot {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#hrfooter {
+    margin: 0px auto;
+    
+    color: grey;
+    width: 100%;
+}
+
+footer {
+    background: white;
+    width: 100%;
+}
+
+#links {
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    height: auto;
+}
+
+footer p {
+    padding: 20px 0px;
+    font-size: 1rem;
+}
+
+#copyright {
+    font-size: 0.6rem;
+    margin-top: -1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  
+  #container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: -140px;
+    margin-bottom: -100px;
+    
+  }
+
+  #header {
+   width: 100%;
+   padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+  }
+
+  #main {
+    width: 100%;
+    padding: 0;
+   margin: 0;
+  }
+
+h2 {
+    text-align: center;
+    
+}
+
+  #titleimg {
+    width: 100%;
+  }
+
+  footer p {
+    padding: 20px 0px;;
+    
+  }
+
+  #hrfooter {
+    margin: 0px auto;
+    color: grey;
+    width: 100%;
+}
+
+
+    
+}
