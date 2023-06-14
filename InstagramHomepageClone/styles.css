@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;    
+}
+
+
+form {
+    height: 340px;
+    width: 280px;
+    padding: 2rem;
+    margin: 2rem; 
+    border-color: gray;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-bottom: -1rem;
+}
+
+
+#mainimg {
+   margin-top: 1.5rem;
+    margin-left: 7rem;
+    height: 600px;
+    width: 409px;
+}
+
+#formimg {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    width: 90%;
+    margin: 8px auto;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+button {
+    width: 99%;
+    margin: 8px auto;
+    background-color: #3578E5;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 0;
+}
+
+hr {
+    width: 40%;
+    margin: 12px auto;
+    
+}
+
+#hrortext {
+    text-align: center;
+    font-size: 0.8rem;
+    display: inline;
+}
+
+
+#fblogin p {
+  display: inline;
+  color: darkblue;
+  font-weight: bold;
+  
+  
+}
+
+#fblogin img {
+   margin-bottom: -0.2rem
+}
+
+#fblogin {
+    width: 70%;
+    margin: 0 auto;
+    
+
+}
+
+#frgpss p{
+    display: block;
+    width: 60%;
+    text-align: center;
+    margin: 12px auto;
+    font-size: 0.8rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+#formfooter {
+    text-align: center;
+    width: 280px;
+    padding: 1.5rem 2rem;
+    margin: 2rem;
+    height: 20px;
+    border: 1px solid black;
+    border-color: gray;
+    border-radius: 2px;
+    margin-bottom: -3rem;
+    
+}
+
+#formfooter a {
+    font-weight: bold;
+    color: #1877F2;
+}
+
+#app {
+    width: 280px;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+#app p {
+    text-align: center;
+ 
+}
+
+#appimg{
+    margin: 1rem auto;
+
+}
+
+#app img {
+    display: inline;
+width: 135px;
+border-radius: 5px;
+height: 40px;
+}
+
+footer p {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: gray;
+    word-spacing: 8px;
+    
+}
+
+#copyrightandselect p{
+    display: inline;
+    word-spacing: 8px;
+   
+}
+
+#copyrightandselect {
+    text-align: center;
+    color: gray;
+}
+
+button:hover {
+    background-color: rgb(20, 20, 211);
+    cursor:pointer;
+}
+
